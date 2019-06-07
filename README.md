@@ -25,9 +25,13 @@ The machine where I performed the original test has the following characteristic
 
 Next I include a table with the results of measuring the digital signature algorithms; it includes the 9 Second Round Candidates of the NIST's Post Quantum Crypto Contest, all signatures were tested 10000 cycles except the GeMMS, RAINBOW and SPHINCS+ 1000 cycles and averaging; the categories where digital signatures based on Lattices, Multivariate Polynomials and Hash Functions, the results are in the clasifications mentions before sort by the fastest in every category.
 
-Digital Signatures over Lattices
 
-|	**SIGNATURE NAME**	|	**IMPLEMENTATION VERSION**	|	**SECRET SIZE KEY BITS**	|	**PUBLIC SIZE KEY BITS**	|	**SIGN CLOCK CYCLES**	|	**SIGN TIME SECONDS**	|	**VERIFY CLOCK CYCLES**	|	**VERIFY TIME SECONDS**	|
+
+
+
+**Digital Signatures over Lattices**
+
+|	**SIGNATURE NAME**	|	**VERSION**	|	**SECRET SIZE KEY BITS**	|	**PUBLIC SIZE KEY BITS**	|	**SIGN CLOCK CYCLES**	|	**SIGN TIME SECONDS**	|	**VERIFY CLOCK CYCLES**	|	**VERIFY TIME SECONDS**	|
 |	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|
 |	qTESLA	|	ref-128	|	sk-2112-bytes	|	pk-4128-bytes	|	1005268	|	0.00053	|	694103	|	0.000366	|
 |	CRYSTALS-DILITHIUM	|	ref-medium	|	sk-2800-bytes	|	pk-1184-bytes	|	1136277	|	0.0006	|	413412	|	0.007286	|
@@ -48,9 +52,12 @@ Digital Signatures over Lattices
 |	FALCON	|	ref-1024	|	sk-8193-bytes	|	pk-1793-bytes	|	25768978	|	0.013598	|	1879675	|	0.000991	|
 
 
-Digital Signatures over Multivariate Polynomials
 
-|	**SIGNATURE NAME**	|	**IMPLEMENTATION VERSION**	|	**SECRET SIZE KEY BITS**	|	**PUBLIC SIZE KEY BITS**	|	**SIGN CLOCK CYCLES**	|	**SIGN TIME SECONDS**	|	**VERIFY CLOCK CYCLES**	|	**VERIFY TIME SECONDS**	|
+
+
+**Digital Signatures over Multivariate Polynomials**
+
+|	**SIGNATURE NAME**	|	**VERSION**	|	**SECRET SIZE KEY BITS**	|	**PUBLIC SIZE KEY BITS**	|	**SIGN CLOCK CYCLES**	|	**SIGN TIME SECONDS**	|	**VERIFY CLOCK CYCLES**	|	**VERIFY TIME SECONDS**	|
 |	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|
 |	RAINBOW	|	opt-Ia	|	sk-100209-bytes	|	pk-152097-bytes	|	796061	|	0.00042	|	481003	|	0.000139	|
 |	RAINBOW	|	opt-IVa	|	sk-376141-bytes	|	pk-565489-bytes	|	2513794	|	0.001327	|	1697063	|	0.008191	|
@@ -94,9 +101,12 @@ Digital Signatures over Multivariate Polynomials
 |	GeMMS	|	ref-256	|	sk-82056-bytes	|	pk-3603792-bytes	|	27781414012	|	14.660377	|	219134649	|	0.000139	|
 
 
-Digital Signatures over Hash Functions
 
-|	**SIGNATURE NAME**	|	**IMPLEMENTATION VERSION**	|	**SECRET SIZE KEY BITS**	|	**PUBLIC SIZE KEY BITS**	|	**SIGN CLOCK CYCLES**	|	**SIGN TIME SECONDS**	|	**VERIFY CLOCK CYCLES**	|	**VERIFY TIME SECONDS**	|
+
+
+**Digital Signatures over Hash Functions**
+
+|	**SIGNATURE NAME**	|	**VERSION**	|	**SECRET SIZE KEY BITS**	|	**PUBLIC SIZE KEY BITS**	|	**SIGN CLOCK CYCLES**	|	**SIGN TIME SECONDS**	|	**VERIFY CLOCK CYCLES**	|	**VERIFY TIME SECONDS**	|
 |	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|
 |	PICNIC	|	opt-l1fs	|	sk-49-bytes	|	pk-33-bytes	|	16497952	|	0.008706	|	11348432	|	0.005989	|
 |	PICNIC	|	opt-l1ur	|	sk-49-bytes	|	pk-33-bytes	|	20645994	|	0.010895	|	14493073	|	0.007648	|
