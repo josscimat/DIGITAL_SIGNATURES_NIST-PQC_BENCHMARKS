@@ -81,6 +81,7 @@ int main()
     //printf("pk: %i\n", CRYPTO_PUBLICKEYBYTES);
     
     free(m);
+    free(m1);
     free(sm);
     return 0;
 }
