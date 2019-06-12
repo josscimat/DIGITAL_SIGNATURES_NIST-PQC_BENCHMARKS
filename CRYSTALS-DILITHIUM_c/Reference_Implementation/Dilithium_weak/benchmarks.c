@@ -79,6 +79,7 @@ int main()
     printf("Verify Time Seconds: %f\n", tiempov);
 
     free(m);
+    free(m1);
     free(sm);
     return 0;
 }
