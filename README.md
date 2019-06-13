@@ -4,7 +4,7 @@ This repository contains the benchmarks of the NIST's Post Quantum Crypto Contes
 
 This project is finished, the main purpose was to measure the "signature" and "verification" in clock cycles of all versions of the implementations of digital signatures in the PQC Contest, here you can download the modified versions of the schemes and test it yourself.
 
-I am not the owner of the sourcecode containd in the original schemes, the codes belongs to the original developers of the schemes, I only developed the file that contains the main function (benchmarks.c), also modified another files in the algorithms to execute the code the most similar way in all the schemes, the "benchmarks.c" file is include in all implementations of the schemes, next you will find the instructions to execute them:
+I am not the owner of the sourcecode contained in the original schemes, the codes belongs to the original developers of the schemes, I only developed the file that contains the main function (benchmarks.c), also modified another files in the algorithms to execute the code the most similar way in all the schemes, the "benchmarks.c" file is include in all implementations of the schemes, next you will find the instructions to execute them:
 
 1. Download this repository and extract the content, in the main folder create a folder named RESULTS.
 
@@ -23,7 +23,7 @@ The machine where I performed the original test has the following characteristic
 - 4GB of RAM DDR3, 3824MiB
 - SSD 128GB Sata3
 
-Next I include a table with the results of measuring the digital signature algorithms; it includes the 9 Second Round Candidates of the NIST's Post Quantum Crypto Contest, all signatures were tested 10000 cycles except the GeMMS, RAINBOW and SPHINCS+ 1000 cycles and averaging; the categories where digital signatures based on Lattices, Multivariate Polynomials and Hash Functions, the results are in the clasifications mentions sorted by the fastest signature in every category.
+Next I include a table with the results of measuring the digital signature algorithms; it includes the 9 Second Round Candidates of the NIST's Post Quantum Crypto Contest, all signatures were tested 10000 cycles except the GeMMS, RAINBOW and SPHINCS+ 1000 cycles and averaging; the categories where digital signatures based on Lattices, Multivariate Polynomials and Hash Functions, the results are in the clasifications mentions above sorted by the fastest signature in every category.
 
 
 
