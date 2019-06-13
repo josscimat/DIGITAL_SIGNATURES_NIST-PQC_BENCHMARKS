@@ -23,7 +23,7 @@ The machine where I performed the original test has the following characteristic
 - 4GB of RAM DDR3, 3824MiB
 - SSD 128GB Sata3
 
-Next I include a table with the results of measuring the digital signature algorithms; it includes the 9 Second Round Candidates of the NIST's Post Quantum Crypto Contest, all signatures were tested 10000 cycles except the GeMMS, RAINBOW and SPHINCS+ 1000 cycles and averaging; the categories where digital signatures based on Lattices, Multivariate Polynomials and Hash Functions, the results are in the clasifications mentions before sort by the fastest in every category.
+Next I include a table with the results of measuring the digital signature algorithms; it includes the 9 Second Round Candidates of the NIST's Post Quantum Crypto Contest, all signatures were tested 10000 cycles except the GeMMS, RAINBOW and SPHINCS+ 1000 cycles and averaging; the categories where digital signatures based on Lattices, Multivariate Polynomials and Hash Functions, the results are in the clasifications mentions sorted by the fastest signature in every category.
 
 
 
